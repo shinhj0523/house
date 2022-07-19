@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">house</string>
+    <string name="check_temperature">온 습도\n상태확인</string>
+    <string name="connect_bluetooth">블루투스\n스피커</string>
+    <string name="control_curtain">커튼\n자동제어</string>
+    <string name="check_elect_charge">축전된\n전기량</string>
+    <string name="recognize_gesture">제스쳐\n인식</string>
+    <string name="system_security">보안\n시스템</string>
+
+
+</resources>
