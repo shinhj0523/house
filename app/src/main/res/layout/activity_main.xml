@@ -13,6 +13,7 @@
         android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="104dp"
+        android:background="#ffffff"
         android:text="@string/check_temperature"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,33 +42,50 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_recognize_gesture"
+        android:id="@+id/button_close_blind"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="472dp"
-        android:text="@string/recognize_gesture"
+        android:text="커튼 닫기"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_system_security"
+        android:id="@+id/button_open_blind"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="224dp"
         android:layout_marginTop="288dp"
-        android:text="@string/system_security"
+        android:text="커튼열기"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="status"
+        android:textSize="20dp"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
-        android:id="@+id/button_connect_blooth"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="108dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:id="@+id/btn_paired"
+        android:layout_width="121dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickButtonPaired"
+        android:text="Paired Devices"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_status" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
